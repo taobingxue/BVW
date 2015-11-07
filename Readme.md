@@ -57,7 +57,7 @@ https://youtu.be/nHi66nZp5f4
 - Dasol Park	- Sound Designer<br>
 
 ###INTRO:
-Harsh Light uses the player's eye movements to navigate a dark and dangerous environment. Have fun and save the fairy ! Try to get a high score !
+Harsh Light uses the player's eye movements to navigate a dark and dangerous environment. Have fun and save the fairy ! Try to get a high score to show up in the score board!
 
 ###VIDEO:
 https://www.youtube.com/watch?v=NBSxSmv34TA
