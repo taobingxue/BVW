@@ -12,11 +12,11 @@ What is this black zone? Why are the colorful blocks vanishing and appearing int
 2. Kinect game.
 
 ###STAFF:
-Xiaoshan Lu (Hill Lo) - Sound Designer/Programmer/Producer <br>
-Jiawen Liang - Chief Programmer<br>
-Milind Nilekani - Programmer<br>
-Maya Mahalingam - 3D Artist<br>
-Jun Wang - 2D Artist<br>
+- Xiaoshan Lu (Hill Lo) - Sound Designer/Programmer/Producer <br>
+- Jiawen Liang - Chief Programmer<br>
+- Milind Nilekani - Programmer<br>
+- Maya Mahalingam - 3D Artist<br>
+- Jun Wang - 2D Artist<br>
 
 ###INTRO:
 You and your loving girlfriend have just arrived back home and realized that the kitchen is filled with cockroaches! Your girlfriend absolutely detests cockroaches and she's the target of these pests.<br>
@@ -31,11 +31,11 @@ https://www.youtube.com/watch?v=9D9NW6pM4ts&feature=share
 2. Oculus game with Leap motion. [OculusUtilities_0_1_0_beta, leap_motion_SDK_windows_2.3.1]
 
 ###STAFF:
-Jonathan Ahnert - Sound Designer/Artist/Producer <br>
-Jiawen Liang - Programmer<br>
-Abhishek Singh - Programmer<br>
-Ross Houston - Artist<br>
-Flora Cheng - Artist<br>
+- Jonathan Ahnert - Sound Designer/Artist/Producer <br>
+- Jiawen Liang - Programmer<br>
+- Abhishek Singh - Programmer<br>
+- Ross Houston - Artist<br>
+- Flora Cheng - Artist<br>
 
 ###INTRO:
 Find out those beauty from pieces. Enjoy the scene, the haiku, and the freedom.
