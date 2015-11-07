@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0aaa1a3041124904eae0920aa6198b29
+timeCreated: 1441258775
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - wallPrefab: {instanceID: 0}
+  - planePrefab: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

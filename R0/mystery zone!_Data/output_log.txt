@@ -1,0 +1,30 @@
+Mono path[0] = 'C:/Users/Jiawen/Downloads/mystery zone!_Data/Managed'
+Mono path[1] = 'C:/Users/Jiawen/Downloads/mystery zone!_Data/Mono'
+Mono config path = 'C:/Users/Jiawen/Downloads/mystery zone!_Data/Mono/etc'
+PlayerConnection initialized from C:/Users/Jiawen/Downloads/mystery zone!_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55423
+Broadcasting "[IP] 169.254.98.235 [Port] 55423 [Flags] 2 [Guid] 3781635506 [EditorId] 1319815266 [Version] 1048832 [Id] WindowsPlayer(Jiawen-PC) [Debug] 0" to [169.254.255.255:54997]...
+PlayerConnection already initialized - listening to [169.254.98.235:55423]
+Initialize engine version: 5.1.3f1 (b0a23b31c3d8)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 10.1]
+    Renderer: Intel(R) HD Graphics 3000 (ID=0x116)
+    Vendor:   Intel
+    VRAM:     128 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Jiawen\Downloads\mystery zone!_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Jiawen\Downloads\mystery zone!_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Jiawen\Downloads\mystery zone!_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Jiawen\Downloads\mystery zone!_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Jiawen\Downloads\mystery zone!_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Jiawen\Downloads\mystery zone!_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Jiawen\Downloads\mystery zone!_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Jiawen\Downloads\mystery zone!_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Jiawen\Downloads\mystery zone!_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\Jiawen\Downloads\mystery zone!_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: C:\Users\Jiawen\Downloads\mystery zone!_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.068 seconds
+desktop: 1366x768 50Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
