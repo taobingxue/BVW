@@ -1,0 +1,58 @@
+Nonlinear Eyegaze Calibration Data (Individual) - Composite rms error: tot: 0.00  x: 0.00  y: 0.00 (in)
+2 1  (Vision Systems, Calibration Eyes Per Vision System)
+    0.0874  Kappa, horizontal component (rad) ( 5.01 deg)
+   -0.0184  Kappa, vertical component   (rad) (-1.05 deg)
+    5.7613  Cornea-center pupil-center distance (mm)
+    7.7847  Nominal cornea radius (mm)
+    1.0781  Cornea's elongation coefficient (unitless)
+    0.0388  Cornea's total astigmatism (unitless)
+    1.0654  Angle of astigmatism axis (rad) (61.04 deg)
+    0.0000  Monitor to Gimbal Rotation about Y (rad)  (  0.0 deg)
+   -0.0000  Monitor to Gimbal Rotation about X (rad)  ( -0.0 deg)
+    0.0000  Monitor to Gimbal Rotation about Z (rad)  (  0.0 deg)
+   -0.0000  Monitor to Gimbal Offset X (mm)  ( -0.00 in)
+ -155.6000  Monitor to Gimbal Offset Y (mm)  ( -6.13 in)
+   13.0000  Monitor to Gimbal Offset Z (mm)  (  0.51 in)
+    0.8649  0.7389  0.4495   total, horz and vert accuracy (in)
+   21.9674 18.7676 11.4168   total, horz and vert accuracy (mm)
+19:19:32
+Oct 13, 2015
+Right Eye
+   57.1500  Distance Between Eyes            (  2.25 in)
+   -0.0616  Kappa, horizontal component (rad) (-3.53 deg)
+    0.0021  Kappa, vertical component   (rad) ( 0.12 deg)
+    5.6203  Cornea-center pupil-center distance (mm)
+    8.5298  Nominal cornea radius (mm)
+    1.5726  Cornea's elongation coefficient (unitless)
+    0.0199  Cornea's total astigmatism (unitless)
+    2.1178  Angle of astigmatism axis (rad) (121.34 deg)
+    0.0000  Monitor to Gimbal Rotation about Y (rad)  (  0.0 deg)
+   -0.0000  Monitor to Gimbal Rotation about X (rad)  ( -0.0 deg)
+    0.0000  Monitor to Gimbal Rotation about Z (rad)  (  0.0 deg)
+   -0.0000  Monitor to Gimbal Offset X (mm)  ( -0.00 in)
+ -155.6000  Monitor to Gimbal Offset Y (mm)  ( -6.13 in)
+   13.0000  Monitor to Gimbal Offset Z (mm)  (  0.51 in)
+    0.4769  0.1028  0.4657   total, horz and vert accuracy (in)
+   12.1144  2.6116 11.8295   total, horz and vert accuracy (mm)
+19:19:32
+Oct 13, 2015
+Left Eye
+   57.1500  Distance Between Eyes            (  2.25 in)
+Display:    Wpx: 1920  Hpx: 1080
+Monitor:    Wmm:527.0  Hmm:298.5  CrvX:-0.0000  CrvY:-0.0000
+Cam Sensor[0]: Wmm: 6.45  Hmm: 4.84  TotPix: I: 768 K: 240
+Cam Lens[0]:   FocalLength: 50.0
+Raw Calibration Data - 1 Cal Cycles, 6 Cal Points PerCycle
+ #  Xcr(px)  Ycr(px)  Xpc(px)  Ypc(px) PupR  FocRn  Off GimYaw GimPit  Erx  Ery(mm)
+ 0 424.7224 113.8424 431.4417 111.8355 3.28  680.3  0.9 -0.068 -0.518   0.0   0.0
+ 1 408.8824 108.2994 421.9103  97.4145 3.28  691.9  2.1 -0.071 -0.518  32.6  18.8
+ 2 402.2851 127.8849 380.0333 118.4317 3.32  698.0  1.5 -0.045 -0.518   4.8 -10.0
+ 3 414.1494 130.0909 394.9533 126.9482 3.31  698.6  1.0 -0.052 -0.515  -1.9  -7.4
+ 4 429.2981 128.3392 445.7912 125.5825 3.38  698.6  0.6 -0.057 -0.514 -21.8   0.5
+ 5 412.5027 123.3461 410.9585 117.0941 3.38  698.7  0.2 -0.057 -0.514 -14.0 -11.9
+ 0 382.0734 122.4586 390.1047 120.3506 3.01  678.6  1.0 -0.068 -0.518   0.0   0.0
+ 1 376.4194 124.5216 397.3178 113.7201 2.95  698.7  2.4 -0.071 -0.518  -0.9   8.9
+ 2 366.8404 122.1576 347.4818 113.3345 3.09  700.1 -0.0 -0.045 -0.518   2.1 -17.1
+ 3 376.7463 128.3045 359.9956 125.6464 3.08  700.1 -0.2 -0.052 -0.515  -2.5  12.3
+ 4 394.7145 130.3260 413.1439 127.8528 3.08  700.1  0.1 -0.057 -0.514   1.9 -11.4
+ 5 376.3120 126.7242 376.7109 120.3133 3.17  700.5  1.7 -0.057 -0.514  -4.3   7.1
