@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{E7BA4684-BBE7-E15E-E1D6-091D61825078}</ProjectGuid>
+	<ProjectGuid>{C873B9B6-FEED-BACA-9D46-C8D81D1F5D33}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Resources\Scripts\AudioController.cs" />
+     <Compile Include="Assets\Resources\Scripts\BlackFadeOut.cs" />
      <Compile Include="Assets\Resources\Scripts\Buttons\Button.cs" />
      <Compile Include="Assets\Resources\Scripts\Buttons\ButtonRename.cs" />
      <Compile Include="Assets\Resources\Scripts\ChangeSceneOnAnim.cs" />

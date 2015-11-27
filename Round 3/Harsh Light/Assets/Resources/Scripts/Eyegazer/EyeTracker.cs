@@ -8,7 +8,7 @@ using System.Collections;
 //
 // This object should be placed in the initial scene, it is flagged as persistent and will
 // clean itself up at the end of the program.
-public class EyeTracker : MonoBehaviour
+public class EyeTracker : Singleton<EyeTracker>
 {
 	// These must be set by hand, the Unity editor returns the size of the Game tab's window on 
 	// screen.width and screen.height, and the eyegaze unit wants full run of the screen.

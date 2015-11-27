@@ -2,7 +2,8 @@
 using System.Collections;
 
 public class EndLight : MonoBehaviour {
-
+	// trigger once
+	bool flag = false;
 	// Use this for initialization
 	void Start () {
 	
@@ -14,8 +15,10 @@ public class EndLight : MonoBehaviour {
 	}
 
 	void ExecuteTrigger (){
+		if (flag) return ;
 		//GoTo ENDSCENE
 		GameObject.Find("Fairy").GetComponent<FairyStatus>().countscore();
 		GetComponent<WhiteFadeOut>().StartFadeOut();
+		flag = true;
 	}
 }

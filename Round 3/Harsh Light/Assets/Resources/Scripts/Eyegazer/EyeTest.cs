@@ -3,13 +3,16 @@ using System.Collections;
 
 public class EyeTest : MonoBehaviour
 {
+	public Vector3 eyeGazePosition;
 	private EyeTracker tracker;
-	
+	public Transform testPointTransform;
+
 	void Awake()
 	{
 		tracker = GameObject.Find("EyeTracker").GetComponent<EyeTracker>();
-		if (tracker == null)
+		if (tracker == null){
 			Debug.LogError("Error: Could not find EyeTracker prefab or its EyeTracker component!");
+		}
 	}
 	
 	void Update()
@@ -20,7 +23,9 @@ public class EyeTest : MonoBehaviour
 			newPos.x = (float)tracker.GazePointX;
 			newPos.y = (float)(Screen.height - tracker.GazePointY);
 			newPos.z = 10;
-			transform.localPosition = Camera.main.ScreenToWorldPoint(newPos);
+			eyeGazePosition = Camera.main.ScreenToWorldPoint(newPos);
+			
+			testPointTransform.localPosition = eyeGazePosition;
 		}
 	}
 }

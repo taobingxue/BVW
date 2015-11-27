@@ -9,8 +9,7 @@ public class Constant {
 	public static int SCENE_GAME 			= 2;
 	public static int SCENE_NAME 			= 3;
 	public static int SCENE_RESTART 		= 4;
-	public static int SCENE_SCRIPT			= 5;
-	public static int SCENE_VICTORY			= 6;
+	public static int SCENE_VICTORY			= 5;
 
 	// background speed
 	public static float bgspeed = 1.8f;

@@ -4,7 +4,7 @@ using System.Collections;
 public class WhiteFadeOut : MonoBehaviour {
 	
 	public float 		waitTime = 8;
-	public int			levelToLoad = 2;
+	// public int			levelToLoad = 2;
 	public float		fadeOutTime = 1f;
 	public float		fadeSpeed = 0.01f;
 
@@ -29,6 +29,6 @@ public class WhiteFadeOut : MonoBehaviour {
 			yield return new WaitForSeconds(Constant.timestep);
 		}
 		
-		Application.LoadLevel (levelToLoad);
+		Application.LoadLevel (Constant.SCENE_VICTORY);
 	}
 }

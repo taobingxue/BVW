@@ -2,9 +2,10 @@
 using System.Collections;
 
 public class LightningFlashes : MonoBehaviour {
-	public SpriteRenderer view_sprite;
+	SpriteRenderer view_sprite;
 	// Use this for initialization
 	void Start () {
+		view_sprite = GameObject.Find ("SightView(Clone)").GetComponent<SpriteRenderer> ();
 		float flash_time = 93;
 		while (flash_time <114) {
 			Invoke ("Flash" , flash_time);

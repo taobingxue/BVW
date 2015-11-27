@@ -13,6 +13,6 @@ public class ChangeSceneOnAnim : MonoBehaviour {
 
 	}
 	public void JumpToScene (){
-		Application.LoadLevel (3);
+		Application.LoadLevel (Constant.SCENE_RESTART);
 	}
 }
