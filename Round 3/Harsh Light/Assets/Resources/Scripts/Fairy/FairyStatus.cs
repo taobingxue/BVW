@@ -2,20 +2,25 @@
 using System.Collections;
 
 public class FairyStatus : MonoBehaviour {
-	public RemoveBodyPart[] removeBodyPartArr;
+	public RemoveLifeOrb[] removeBodyPartArr;
 	int point = 0;
 	bool isImmune = false;
-	float immuneDuration = 1f;
+	float immuneDuration = 1.5f;
 	float fadeTime = 1f;
 	float timesum = 0, timesafe = 0;
 	bool NeverSayDie = false;
 
+	GameObject fairyObj, fairyDie;
+
 	AudioSource _sfxLoseLife;
+	public AudioClip _sfxDie, _sfxFinal;
 
 	void Start() {
 		Constant.score = 0;
 		Constant.winorlose = true;
 		_sfxLoseLife = GetComponent<AudioSource>();
+		fairyObj = GameObject.Find ("Fairy_OutOfSight_01");
+		fairyDie = GameObject.Find ("fairyDie");
 	}
 
 	void Update() {
@@ -34,17 +39,20 @@ public class FairyStatus : MonoBehaviour {
 		// change sprite
 		if (point < removeBodyPartArr.Length && collider.tag != "Trigger"){
 			if(!isImmune){
-				removeBodyPartArr [point].GetComponent<RemoveBodyPart> ().LosePart();
+				removeBodyPartArr[point].LosePart();
 				point++;
+
 				StartCoroutine("CoImmuneDelay");
 				// not touch
 				Constant.score += (int)((timesafe / 9.0f) * (timesafe / 9.0f) * (timesafe / 9.0f));
 				timesafe = 0;
+				if (point == removeBodyPartArr.Length) _sfxLoseLife.clip = _sfxFinal;
+				else _sfxLoseLife.clip = _sfxDie;
 				_sfxLoseLife.Play();
 			}
-		}else if (collider.tag != "Trigger" && ! NeverSayDie) {
-			// final particle
+		}
 
+		if (collider.tag != "Trigger" && ! NeverSayDie && point == removeBodyPartArr.Length) {
 			Debug.Log("Die !!");
 			// stop ?
 			GameObject bg = GameObject.Find("Environment");
@@ -64,7 +72,23 @@ public class FairyStatus : MonoBehaviour {
 
 	IEnumerator CoImmuneDelay(){
 		isImmune = true;
-		yield return new WaitForSeconds(immuneDuration);
+		// yield return new WaitForSeconds(immuneDuration);
+		float time = immuneDuration / 2;
+		Color c = Color.white;
+
+		for (float rest_time = time; rest_time > 0; rest_time -= Constant.timestep) {
+			float ratio = rest_time / time;
+			c.a = ratio;
+			fairyObj.GetComponent<SpriteRenderer>().color = c;
+			yield return new WaitForSeconds(Constant.timestep);
+		}
+		for (float rest_time = time; rest_time > 0; rest_time -= Constant.timestep) {
+			float ratio = rest_time / time;
+			c.a = 1 - ratio;
+			fairyObj.GetComponent<SpriteRenderer>().color = c;
+			yield return new WaitForSeconds(Constant.timestep);
+		}
+
 		isImmune = false;
 	}
 

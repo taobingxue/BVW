@@ -59,9 +59,9 @@ public class Pillar : MonoBehaviour {
 			// close
 			for (float rest_time = closet; rest_time > 0; rest_time -= Constant.timestep) {
 				float ratio = rest_time / closet;
-				Debug.Log ("ratio = " + ratio);
+				//Debug.Log ("ratio = " + ratio);
 				pillarup.transform.localPosition = uppos + Vector3.up * ratio * Pillarmovement;
-				Debug.Log("x = " + pillarup.transform.localPosition.x + ", y = "+pillarup.transform.localPosition.y);
+				//Debug.Log("x = " + pillarup.transform.localPosition.x + ", y = "+pillarup.transform.localPosition.y);
 				pillardown.transform.localPosition = downpos + Vector3.down * ratio * Pillarmovement;
 
 				if(ratio > 0.5f){

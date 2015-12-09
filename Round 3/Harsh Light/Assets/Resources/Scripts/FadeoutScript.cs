@@ -2,8 +2,8 @@
 using System.Collections;
 
 public class FadeoutScript : MonoBehaviour {
-
 	public float waitTime = 8;
+	public int nextScene;
 	// Use this for initialization
 	void Start () {
 		StartCoroutine(fadeout());
@@ -19,7 +19,6 @@ public class FadeoutScript : MonoBehaviour {
 			blackbg.GetComponent<SpriteRenderer>().color = c;
 			yield return new WaitForSeconds(Constant.timestep);
 		}
-		
-		Application.LoadLevel (2);
+		Application.LoadLevel (nextScene);
 	}
 }

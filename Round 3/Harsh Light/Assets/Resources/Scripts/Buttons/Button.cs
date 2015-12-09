@@ -23,18 +23,22 @@ public class Button : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		Vector2 cursorPosition = _viewer.getPosition();
-		if (_startSpace.Contains(cursorPosition)) {
+		Vector2 cursorPosition = _viewer.getPosition ();
+		if (_startSpace.Contains (cursorPosition)) {
 			float newtime = _standtime + Time.deltaTime;
 			for (int i = 1; i < 4; i ++) {
 				if (_standtime < i && newtime >= i) {
-					audioS.Play();
-					if (i == 3)
-						StartCoroutine(push());
+					audioS.Play ();
+					if (i == 3) StartPush();
 				}
 			}
 			_standtime = newtime;
-		} else _standtime = 0;	
+		} else
+			_standtime = 0;	
+	}
+
+	protected virtual void StartPush() {
+		StartCoroutine (push ());
 	}
 	IEnumerator push() {
 		Color c = Color.black; 

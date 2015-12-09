@@ -53,7 +53,7 @@ public class Ball : MonoBehaviour {
 			speed *= speedlimit;
 			dir.z += speed * Constant.timestep * direction;
 			this.transform.rotation = Quaternion.Euler (dir);
-			Debug.Log ("Ball Speed: "+speed);
+			//Debug.Log ("Ball Speed: "+speed);
 			if(speed > 20){
 				PlaySwingBallSfx();
 			}
