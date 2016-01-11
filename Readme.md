@@ -2,12 +2,45 @@
 6 projects made in the Build Virtual World. R0 is built by myself. And for R1 to R5, each projects is finished by a group of 5 (2 programmers, 2 artists, and 1 sound designer), except R5 which has one more artists. My own role is programmer for all the projects.<br>
 R0 and R3 took only one week, R1 and R2 took two weeks, R4 and R5 took three weeks.
 
-##Round 0 - Mystery Zone
-Try GameObject/Animation/Multi-scene/.. by yourself to make whatever you want.
+##Round 3 - Hash Light
+1. Lightning Round within one week.
+2. Have a good idea that is FUN to player with, preferably one that can be implemented simply.
+2. Platform: EyeGaze Eyetracker.
+
 ####STAFF:
-Jiawen Liang - Everything
+- Eric VonFischer	- Game Designer/Producer <br>
+- Jiawen Liang 	- Programmer<br>
+- Justin Ouyang	- Programmer<br>
+- Carrie Yang	- Artist<br>
+- Dasol Park	- Sound Designer<br>
+
 ####INTRO:
-What is this black zone? Why are the colorful blocks vanishing and appearing intermittenly? Try to unveil the mystery and eascape !!
+Harsh Light uses the player's eye movements to navigate a dark and dangerous environment. Have fun and save the fairy ! Try to get a high score to show up in the score board!
+
+####VIDEO:
+https://www.youtube.com/watch?v=lyDyaSSN0Uc
+
+##Round 4 - Muse Meow
+1. Tell a compelling, meaningful interactive story where the guest has some ability to interact in order to bring the story to a fulfilling climax.
+2. PS move game.
+
+####STAFF:
+- Jiawen Liang - Programmer
+- Shantanu Das - Programmer
+- Tina Liao - Artist
+- Michael Ma - Artist
+- Luna Zhang - Sound Designer/Artist
+
+####INTRO:
+There is a happy cat lives in a painting - The Scream. One day there was a dog, he started to chase our happy cat as the cat made faces to him. Then our happy cat became a screaming cat, and, jumped out of the painting!<br>
+
+Now, use your two PS move to help the cat go through HomoVitruvianus, The Persistence of Memory, Mona Lisa, The Shrimps, Last Supper. Escape from the dog, and go back to his original painting!<br>
+
+I go Meow-- Meow--- Meow Meow Meow~
+
+####VIDEO:
+https://www.youtube.com/watch?v=52O8LhQIvKk&feature=share
+
 ##Round 1 - Roach Rush
 1. Let your player/guest help Character A from Character B that Character A is afraid of.
 2. Kinect game.
@@ -44,41 +77,9 @@ Find out those beauty from pieces. Enjoy the scene, the haiku, and the freedom.
 ####VIDEO:
 https://youtu.be/nHi66nZp5f4
 
-##Round 3 - Hash Light
-1. Lightning Round within one week.
-2. Have a good idea that is FUN to player with, preferably one that can be implemented simply.
-2. Platform: EyeGaze Eyetracker.
-
+##Round 0 - Mystery Zone
+Try GameObject/Animation/Multi-scene/.. by yourself to make whatever you want.
 ####STAFF:
-- Eric VonFischer	- Game Designer/Producer <br>
-- Jiawen Liang 	- Programmer<br>
-- Justin Ouyang	- Programmer<br>
-- Carrie Yang	- Artist<br>
-- Dasol Park	- Sound Designer<br>
-
+Jiawen Liang - Everything
 ####INTRO:
-Harsh Light uses the player's eye movements to navigate a dark and dangerous environment. Have fun and save the fairy ! Try to get a high score to show up in the score board!
-
-####VIDEO:
-https://www.youtube.com/watch?v=NBSxSmv34TA
-
-##Round 4 - Muse Meow
-1. Tell a compelling, meaningful interactive story where the guest has some ability to interact in order to bring the story to a fulfilling climax.
-2. PS move game.
-
-####STAFF:
-- Jiawen Liang - Programmer
-- Shantanu Das - Programmer
-- Tina Liao - Artist
-- Michael Ma - Artist
-- Luna Zhang - Sound Designer/Artist
-
-####INTRO:
-There is a happy cat lives in a painting - The Scream. One day there was a dog, he started to chase our happy cat as the cat made faces to him. Then our happy cat became a screaming cat, and, jumped out of the painting!<br>
-
-Now, use your two PS move to help the cat go through HomoVitruvianus, The Persistence of Memory, Mona Lisa, The Shrimps, Last Supper. Escape from the dog, and go back to his original painting!<br>
-
-I go Meow-- Meow--- Meow Meow Meow~
-
-####VIDEO:
-https://www.youtube.com/watch?v=52O8LhQIvKk&feature=share
+What is this black zone? Why are the colorful blocks vanishing and appearing intermittenly? Try to unveil the mystery and eascape !!
