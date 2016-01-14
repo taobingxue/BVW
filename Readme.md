@@ -15,7 +15,7 @@ R0 and R3 took only one week, R1 and R2 took two weeks, R4 and R5 took three wee
 - Dasol Park	- Sound Designer<br>
 
 ####INTRO:
-Harsh Light uses the player's eye movements to navigate a dark and dangerous environment. Have fun and save the fairy ! Try to get a high score to show up in the score board!
+Guide a fairy out of the darkness where evil lurks in the shadows. Move the fairy to where you are looking at while avoiding deadly shadow traps. Can you avoid looking at traps while navigating through them?
 
 ####VIDEO:
 https://www.youtube.com/watch?v=lyDyaSSN0Uc
@@ -72,10 +72,25 @@ https://www.youtube.com/watch?v=9D9NW6pM4ts&feature=share
 - Flora Cheng - Artist<br>
 
 ####INTRO:
-Find out those beauty from pieces. Enjoy the scene, the haiku, and the freedom.
+In this game, guests walk through an abstract environment based on Japanese Ukiyo-e art. As they follow the path of a quiet stream they encounter abstract sculptures floating in space. Viewing these sculptures from the proper angle causes the shapes to align in perspective, creating a concrete image. Each image is accompanied by a line from a Masaoka Shiki haiku. Enjoy it and the freedom.
 
 ####VIDEO:
 https://youtu.be/nHi66nZp5f4
+
+##Round 5 - Summoning Santa
+1. An experience work with a 55-inch pyramid hologram made by ourselves and Makey Makey.
+2. Something for a show.
+
+####STAFF:
+- Andrew O'Rourke - Writer/Producer <br>
+- Ross Houston - Artist <br>
+- Luna Zhang - Artist <br>
+- Cristian Tchetko - Sound designer <br>
+- Jiawen Liang - Programmer <br>
+- Jason Cao - Programmer <br>
+
+###INTRO:
+In this interactive play, guests enter the room and see a ghostly pparition of Santa Clause in the hologram pyramid and hear him calling for help. With Santa's instruction, the guests perform the summoning ritual which involves pouring milk, serving cookies, ringing a bell, lighting a candle, and tracing a heptagtam in a spellbook. After performing the ritual, the guests realize that they have actually summoned the devious Krampus. Sensing trouble, the real Santa emerges from the fireplace. Then Santa instructs the guests to try different ways may help defeat the monster such as to stab gingerbread voodoo cookies. Finally the guests can defeat the Krampus, then Santa gives the guests candy canes and wishes them a Merry Christmas. 
 
 ##Round 0 - Mystery Zone
 Try GameObject/Animation/Multi-scene/.. by yourself to make whatever you want.
